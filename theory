@@ -1,0 +1,73 @@
+Minimization of a priori knowledge in inductive reasoning
+
+ 
+
+Andrew Gleibman
+
+ 
+
+Sampletalk Technology
+
+ 
+
+Research presentation
+
+ 
+
+The research, presented here, is about minimization of a priori knowledge applied in machine learning systems. The framework being built is characterized by the following paradox, visible in some inductive reasoning systems:
+
+ 
+
+The less formal knowledge we apply, the more powerful reasoning we can extract from observational data.
+
+ 
+
+Informally, this means that when we involve less initial knowledge into our inductive inference, our treatment of data is less biased and can lead to a wider spectrum of generalizations. For the case of symbolic logic I came to an asymptotic limit of such minimization, which I call First Order String Calculus (FOSC) [1] as opposed to First Order Predicate Calculus (FOPS), and to the concept of Generalization Universe, which contains all possible generalizations of a set of symbolic data ([1], p.104, Definition 2.5).
+
+ 
+
+This framework provides an unexpected way to handle biological sequences, which we cannot understand today, to build natural language processing applications from examples without the concept of formal grammar [2], to decipher unknown codes, and to extract formal theories and algorithms from unrestricted text data in fashion of inductive logic programming but without the need to invent logical predicates [2, 3]. In a way, this is a formal framework for modeling human intuition. This minimization also provides a special treatment of Church-Turing thesis:
+
+ 
+
+Every possible computation can be carried out by alignment and matching of suitable data examples
+
+ 
+
+([1], p.110) with specific definition of alignment and matching as a universal algorithm definition means applicable in machine learning frameworks for automatic extraction of algorithms from data. Today I am expanding this framework for a non-text data. I did not come to as rigorous formal framework in this case, but a similar minimization made it possible to build a nearly-universal practical set of numerical feature algorithms for image classification. Specifically, now I am experimenting with an asymptotic simplification of the numerical feature algorithms, which can be combined through SVM and classical feature selection methods into as wide as possible spectrum of image classifiers based on unrestricted training data. In the past I did such minimization for extracting astronomical equations immediately from observational data [4].
+
+ 
+
+REFERENCES
+
+ 
+
+[1] Gleibman, A.H., Intelligent Processing of an Unrestricted Text in First Order String Calculus, M.L. Gavrilova et al. (Eds.): Trans. on Comput. Sci. V, LNCS 5540, pp. 99–127, 2009. © Springer-Verlag Berlin Heidelberg 2009, http://dl.acm.org/citation.cfm?id=1573944
+
+ 
+
+[2] Gleibman, A.H., Knowledge Representation via Verbal Description Generalization:
+
+Alternative Programming in Sampletalk Language. In: Workshop on Inference for
+
+Textual Question Answering, July 9, 2005 – Pittsburgh, Pennsylvania, pp. 59–68,
+
+AAAI 2005 - the Twentieth National Conference on Artificial Intelligence
+
+http://www.hlt.utdallas.edu/workshop2005/papers/WS505GleibmanA.pdf
+
+ 
+
+[3] Gleibman, A.H., Knowledge Representation via Verbal Description Generalization:
+
+Alternative Programming in Sampletalk Language. PowerPoint presentation
+
+www.sampletalk.com/SampletalkLanguage/AAAI05tlk.pps
+
+ 
+
+[4] Gleibman, A.H., Reasoning About Equations: Towards Physical Discovery. The Issue of the Institute of Theoretical Astronomy of the Russian Academy of Sciences No.18, 1992, 37 pp. In Russian.
+
+http://www.biblus.ru/Default.aspx?book=7b36s38i8
+
+ 
